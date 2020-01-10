@@ -1,11 +1,15 @@
 #include <stdio.h>
 
+const int PUMP_PIN = 0;
+const int MOTOR_PIN = 0;
+
 struct Settings
 {
     int max_width;
     int max_depth;
     int tray[4][6];
 };
+
 struct Tray
 {
     int rows;
